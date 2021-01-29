@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <h2>&nbsp;&nbsp;&nbsp;Welcome to Home Page </h2>
+    <h1> &nbsp;&nbsp;&nbsp; Best selling books in Amazon.ca ! </h1>
+    &nbsp;&nbsp;<img src="https://s3.amazonaws.com/zweb-s3.uploads/ez2/wp-content/uploads/2017/05/GettyImages-152540928.jpg" alt="Trulli" width="500" height="300">
+    <p> &nbsp;&nbsp;<a href="{{ url_for('results') }}">Click here to see raw data imported from MongoDB</a> </p>
+    {% endblock %}
+</body>
+</html>
