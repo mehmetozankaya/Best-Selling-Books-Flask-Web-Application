@@ -93,7 +93,7 @@ df = pd.DataFrame(flatten(results),columns=['Book Name','Author','Rating','Custo
 
 
 
-client = pymongo.MongoClient("mongodb+srv://ozan:kaya@cluster0.2v7o6.mongodb.net/<dbname>?retryWrites=true&w=majority")
+client = pymongo.MongoClient("")
 db=client["AmazonData"]
 col = db["BestBooks"]
 
