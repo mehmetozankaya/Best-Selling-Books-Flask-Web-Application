@@ -13,7 +13,7 @@ Front end: html, css , js
 
 
 **How to set up:**  
-Enter MongoDB connection string in flaskapp.py and webscraping.py: client = pymongo.MongoClient("<Your MongoDB connection String>")
+Enter MongoDB connection string in flaskapp.py and webscraping.py: client = pymongo.MongoClient("Your MongoDB connection String")
 
 **Deployed version of website on Heroku:** https://bdat1007a1.herokuapp.com/
 
